@@ -1,3 +1,4 @@
+## 🌐Website: https://mindcare-techveda.vercel.app/ 
 # 💬 MindCare
 
 **MindCare** is an empathetic mental health chatbot web application designed to provide real-time conversational support, personalized well-being resources, and detailed emotional health reports.
