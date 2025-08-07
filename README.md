@@ -1,2 +1,42 @@
-# MindCare
-MindCare is an empathetic mental health chatbot web app that connects a React frontend with an automated backend workflow (n8n). It provides real-time conversational support, personalized resource suggestions, and emotional well-being reports via email.
+# 💬 MindCare
+
+**MindCare** is an empathetic mental health chatbot web application designed to provide real-time conversational support, personalized well-being resources, and detailed emotional health reports.
+
+Built using a React frontend and powered by an n8n backend workflow, MindCare intelligently interacts with users, delivers tailored suggestions, and generates emotional session reports — all in a seamless, privacy-conscious experience.
+
+---
+
+## ✨ Features
+
+- 🧠 **Conversational AI**: Empathetic real-time interaction powered by the **EmoGuide** agent.
+- 🌐 **Modern UI**: React-based chat interface styled with Tailwind CSS and typed with TypeScript.
+- 🔗 **n8n Workflow Integration**: Webhook POST connections to backend logic hosted on n8n.
+- 📚 **Smart Suggestions**: Personalized recommendations (apps, games, music, mental health content) retrieved via Google Sheets API.
+- 📨 **Session Reports**: End-of-session emotional health summaries generated via **InsightSynth** and emailed through **CareCourier**.
+- 🛠️ **Command Support**: Use `/end` to close session and trigger the report workflow.
+- 🔒 **Privacy-first**: No user data is stored; interactions are ephemeral and focused solely on the current session.
+
+---
+
+## 🛠️ Technology Stack
+
+| Component         | Technology                                  |
+|------------------|----------------------------------------------|
+| **Frontend**      | React, TypeScript, Vite, Tailwind CSS        |
+| **State Mgmt**    | React Context API                            |
+| **Backend**       | n8n (Workflow Automation & Agents)           |
+| **Data Source**   | Google Sheets API                            |
+| **Communication** | RESTful Webhooks                             |
+| **Email Delivery**| n8n Secure Email Node (`CareCourier`)        |
+| **Deployment**    | Vercel / Netlify / GitHub Pages              |
+| **Version Control**| GitHub                                      |
+
+---
+
+## 🚀 Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/mindcare.git
+cd mindcare
