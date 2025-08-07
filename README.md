@@ -6,6 +6,16 @@ Built using a React frontend and powered by an n8n backend workflow, MindCare in
 
 ---
 
+## 🧠n8n Workflow Agents:
+
+- **EmoGuide Agent**: Handles empathetic, context-aware conversation with users. Maintains session memory, processes user input with the Gemini Chat Model, and fetches   personalized resource suggestions from Google Sheets.
+
+- **InsightSynth Agent**: Analyzes the entire conversation and emotional context to generate detailed, personalized mental well-being session reports using the        OpenAI Chat Model and stored session data.
+
+-  **CareCourier Agent**: Secures and sends the personalized session report via email to the user, completing the session workflow with delivery confirmation.
+
+---
+
 ## ✨ Features
 
 - 🧠 **Conversational AI**: Empathetic real-time interaction powered by the **EmoGuide** agent.
@@ -28,7 +38,7 @@ Built using a React frontend and powered by an n8n backend workflow, MindCare in
 | **Data Source**   | Google Sheets API                            |
 | **Communication** | RESTful Webhooks                             |
 | **Email Delivery**| n8n Secure Email Node (`CareCourier`)        |
-| **Deployment**    | Vercel / Netlify / GitHub Pages              |
+| **Deployment**    | Vercel             |
 | **Version Control**| GitHub                                      |
 
 ---
